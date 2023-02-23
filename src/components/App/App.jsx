@@ -1,7 +1,7 @@
-import { GetSumm, GetResult, UsersList , OrdedList ,Users} from "../index";
+import { GetSumm, GetResult, UsersList , OrdedList ,UserDetails} from "../index";
 
 const App = () => {
-console.log(Users);
+
   return (
     <div>
       Hello World
@@ -11,7 +11,8 @@ console.log(Users);
       <hr/>
       <OrdedList />
 <hr/>
-<Users/>
+      <UserDetails />
+
     </div>
   );
 };
